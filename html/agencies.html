@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Main Page</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@100;300;400&family=Inconsolata:wght@300;400&family=Ubuntu:wght@300;400;500&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="../assets/css/main.css">
+    <link rel="stylesheet" href="../assets/css/utlity.css">
+</head>
+<body>
+
+
+    <!--------------NAVBAR TAMIZ----------------->
+
+    <nav class="nav_tamiz_main">
+
+       
+        <div class="nav_logo_action">
+            <ul class="ul_nav_list">
+                
+                    <a href="">
+                        <button class="btn btn_signup">Signup</button>
+                    </a>
+
+                <li>
+                    <a class="active" href="">Home</a>
+                </li>
+
+                <li>
+                    <a href="">Agencies</a>
+                </li>
+
+                <li>
+                    <a href="">Request</a>
+                </li>
+
+              
+
+            </ul>
+        </div>
+
+        <div class="nav_logo_div d-flex-c">
+            <h4>Altmiz</h4>
+            <img src="../assets/images/icons/logo.png" alt="">
+           
+
+        </div>
+
+    </nav>
+
+    <!--------------END NAVBAR TAMIZ----------------->
+
+    <!--------------HEROAREA TAMIZ----------------->
+  
+       <div class="main_heroarea_section" style="  background:   linear-gradient( #010101aa , rgba(0, 0, 0, 0.685) ) , url('../assets/images/heroarea/heroarea-2.jpg') center / cover;" >
+
+        <div class="flex_heroarea">
+            <div class="flex_hero_con container-mid">
+
+             
+                <div class="info_heroarea">
+                    <h1 class="heroarea_headline"> Real Estate Portal System </h1>
+                    <div class="mt-2"></div>
+                    <p class="main_para">  The place where you can find your ideal property through trusted merchants through us  </p>
+                    <div class="mt-2"></div>
+                    <button class="btn btn_heroaction bg_darkgreen"> See Estates </button>
+                </div>
+                <div class="image_heroarea">
+                    <img src="../assets/images/icons/logo.png" alt="">
+                </div>
+
+            </div>
+        </div>
+
+      </div>
+
+
+    <!--------------END HEROAREA TAMIZ----------------->
+
+    
+    
+    <!------------------CONTAINER TAMIZ STARTING------------------------>
+
+      <div class="container_main">
+
+        <section class="agencies_search section">
+                 
+        <h1 class="main_section_headline"> Real Estates </h1>
+        <div class="section_box_parallel" ></div>
+
+        <!-------------AGENCY SEARCH--------------->
+        <form  method="POST" >
+            <div class="mt-5 searching_div_main">
+            
+                    <div class="search_div">
+                            <input type="text" name="search_query" class="search_div_input" placeholder="Enter Your Search Value" >
+            
+                            <button type="submit" name="search_agency" >
+                            <img src="<?= $imgAssets . '/icons/search.png' ?>" class="search_div_img" alt="">
+                            </button>
+                            
+                        </div>
+                        
+
+            
+                       
+            
+                        
+                    </div>
+                </form>
+
+        <!-------------END AGENCY SEARCH--------------->
+
+        <!----------------AGENCY GRID------------------>
+
+        <div class="agencies_grid mt-5">
+            <div class="g-col-3">
+
+                <!------------SINGLE AGENCY----------->
+
+                <div class="single_agency_card">
+
+                    <div class="card_number_absoulte">
+                        <p>1</p>
+                    </div>
+
+                    <div class="stars_div_absolute d-flex-c">
+
+                        <img src="../assets/images/icons/star_solid.png" alt="" class="small_icon">
+
+                        <img src="../assets/images/icons/star_solid.png" alt="" class="small_icon">
+
+                        <img src="../assets/images/icons/star_solid.png" alt="" class="small_icon">
+
+                    </div>
+
+                    <div class="top_card_img">
+                        <img src="../assets/images/agencies/agency-1.jpg" alt="">
+                    </div>
+
+                    <div class="card_content_mid">
+                        <h1 class="headline_agency_card">Name Of The Agency</h1>
+                        <h4 class="para_agency_card">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatibus aliquid animi repellat?</h4>
+
+                        <div class="d-flex-c f-sp more_card_info mt-3">
+
+                            <div class="d-flex-c">
+                                <img class="small_icon mr-1" src="../assets/images/icons/location.png" alt="">
+                                <p class="para_agency_card">Jazan , Street 5</p>
+                            </div>
+
+                            <button class="btn btn_signup bg_sattle_blue">300 SAR</button>
+
+                        </div>
+                    </div>
+
+                </div>
+
+                <!------------END SINGLE AGENCY----------->
+                
+                <!------------SINGLE AGENCY----------->
+
+                <div class="single_agency_card">
+
+                    <div class="card_number_absoulte">
+                        <p>24</p>
+                    </div>
+
+                    <div class="stars_div_absolute d-flex-c">
+
+                        <img src="../assets/images/icons/star_diamond_small_transparent.png" alt="" class="small_icon">
+
+                        <img src="../assets/images/icons/star_diamond_small_transparent.png" alt="" class="small_icon">
+
+                        <img src="../assets/images/icons/star_diamond_small_transparent.png" alt="" class="small_icon">
+
+                    </div>
+
+
+                    <div class="top_card_img">
+                        <img src="../assets/images/agencies/agency-2.jpg" alt="">
+                    </div>
+
+                    <div class="card_content_mid">
+                        <h1 class="headline_agency_card">Name Of The Agency</h1>
+                        <h4 class="para_agency_card">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatibus aliquid animi repellat?</h4>
+
+                        <div class="d-flex-c f-sp more_card_info mt-3">
+
+                            <div class="d-flex-c">
+                                <img class="small_icon mr-1" src="../assets/images/icons/location.png" alt="">
+                                <p class="para_agency_card">Jazan , Street 5</p>
+                            </div>
+
+                            <div class="d-flex-c">
+                                <img class="small_icon mr-1" src="../assets/images/icons/status.png" alt="">
+                                <p class="para_agency_card"> Opened </p>
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+
+                <!------------END SINGLE AGENCY----------->
+
+                <!------------SINGLE AGENCY----------->
+
+                <div class="single_agency_card">
+
+                    <div class="card_number_absoulte">
+                        <p>24</p>
+                    </div>
+
+                    <div class="stars_div_absolute d-flex-c">
+
+                        <img src="../assets/images/icons/star_diamond_small_transparent.png" alt="" class="small_icon">
+
+                        <img src="../assets/images/icons/star_diamond_small_transparent.png" alt="" class="small_icon">
+
+                        <img src="../assets/images/icons/star_diamond_small_transparent.png" alt="" class="small_icon">
+
+                    </div>
+
+                    
+                    <div class="top_card_img">
+                        <img src="../assets/images/agencies/agency-3.jpg" alt="">
+                    </div>
+
+                    <div class="card_content_mid">
+                        <h1 class="headline_agency_card">Name Of The Agency</h1>
+                        <h4 class="para_agency_card">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatibus aliquid animi repellat?</h4>
+
+                        <div class="d-flex-c f-sp more_card_info mt-3">
+
+                            <div class="d-flex-c">
+                                <img class="small_icon mr-1" src="../assets/images/icons/location.png" alt="">
+                                <p class="para_agency_card">Jazan , Street 5</p>
+                            </div>
+
+                            <div class="d-flex-c">
+                                <img class="small_icon mr-1" src="../assets/images/icons/status.png" alt="">
+                                <p class="para_agency_card"> Opened </p>
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+
+                <!------------END SINGLE AGENCY----------->
+
+            </div>
+        </div>
+
+        <!----------------END AGENCY GRID------------------>
+
+        </section>
+
+        </div>
+    
+
+      <!------------------CONTAINER TAMIZ ENDING------------------------>
+
+    
+</body>
+</html>
